@@ -1,30 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+
     <title>mungath</title>
-</head>
-<body>
-    <h1>Hey, I am Gowri Mungath</h1>
-    <img src="./assets/images/IMG_2566.png" height="400" alt=""><br><br>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid color-bg">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-person-circle me-2"
+            viewBox="0 0 16 16"
+          >
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+            <path
+              fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"
+            />
+          </svg>
+          <span class="fs-4">Mungath</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">More Details</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </header>
 
-    I code to pay my bills 👩‍💻 <br>
-    Sing to set my heart free 🎤 <br>
-    And when I'm not doing either, I'm probably talking someone's ear off 🗣️ <br><br>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img
+              src="./assets/images/IMG_2566.png"
+              class="d-block mx-lg-auto img-fluid profile-img"
+              alt="Bootstrap Themes"
+              width="700"
+              height="500"
+              loading="lazy"
+            />
+          </div>
 
-    <h3>My Projects 💻</h3>
-    <li><a href="./public/movie-ranking.html">Movie Ranking Project</a></li>
-    <li><a href="./public/birthday-invite.html">Birthday Invite Project</a></li>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+              <span>Hey,</span>
+              <span class="d-block">I am Gowri Mungath</span>
+            </h1>
 
+            <p class="lead">
+              I code to pay my bills 👩‍💻 <br />
+              Sing to set my heart free 🎤 <br />
+              And when I'm not doing either, I'm probably talking someone's ear
+              off 🗣️
+            </p>
+          </div>
+        </div>
+      </div>
 
-    <br>
+      <div class="container col-xxl-8 px-4 py-5" id="hanging-icons">
+        <h2 class="pb-2">Projects</h2>
+        <div
+          class="row g-4 py-5 row-cols-1 row-cols-lg-2 justify-content-between"
+        >
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-film"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm4 0v6h8V1zm8 8H4v6h8zM1 1v2h2V1zm2 3H1v2h2zM1 7v2h2V7zm2 3H1v2h2zm-2 3v2h2v-2zM15 1h-2v2h2zm-2 3v2h2V4zm2 3h-2v2h2zm-2 3v2h2v-2zm2 3h-2v2h2z"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">
+                <a
+                  href="./public/movie-ranking.html"
+                  style="color: inherit; text-decoration: none"
+                  >Movie Ranking Project</a
+                >
+              </h3>
+              <p>
+                A simple HTML webpage that displays a list of movies ranked by
+                their popularity. It demonstrates basic HTML structure, styling,
+                and linking, perfect for beginners learning web development.
+              </p>
+            </div>
+          </div>
 
-    <h3>Wanna know more about me? 🤔</h3>
-    <a href="./public/about.html">click here</a>
-    <br>
-    <h3>Now that we are basically besties 😌</h3>
-    <a href="./public/contact.html">drop hello!</a>
-    
-</body>
+          <div class="col d-flex align-items-start">
+            <div
+              class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cake2-fill" viewBox="0 0 16 16">
+                <path d="m2.899.804.595-.792.598.79A.747.747 0 0 1 4 1.806v4.886q-.532-.09-1-.201V1.813a.747.747 0 0 1-.1-1.01ZM13 1.806v4.685a15 15 0 0 1-1 .201v-4.88a.747.747 0 0 1-.1-1.007l.595-.792.598.79A.746.746 0 0 1 13 1.806m-3 0a.746.746 0 0 0 .092-1.004l-.598-.79-.595.792A.747.747 0 0 0 9 1.813v5.17q.512-.02 1-.055zm-3 0v5.176q-.512-.018-1-.054V1.813a.747.747 0 0 1-.1-1.01l.595-.79.598.789A.747.747 0 0 1 7 1.806"/>
+                <path d="M4.5 6.988V4.226a23 23 0 0 1 1-.114V7.16c0 .131.101.24.232.25l.231.017q.498.037 1.02.055l.258.01a.25.25 0 0 0 .26-.25V4.003a29 29 0 0 1 1 0V7.24a.25.25 0 0 0 .258.25l.259-.009q.52-.018 1.019-.055l.231-.017a.25.25 0 0 0 .232-.25V4.112q.518.047 1 .114v2.762a.25.25 0 0 0 .292.246l.291-.049q.547-.091 1.033-.208l.192-.046a.25.25 0 0 0 .192-.243V4.621c.672.184 1.251.409 1.677.678.415.261.823.655.823 1.2V13.5c0 .546-.408.94-.823 1.201-.44.278-1.043.51-1.745.696-1.41.376-3.33.603-5.432.603s-4.022-.227-5.432-.603c-.702-.187-1.305-.418-1.745-.696C.408 14.44 0 14.046 0 13.5v-7c0-.546.408-.94.823-1.201.426-.269 1.005-.494 1.677-.678v2.067c0 .116.08.216.192.243l.192.046q.486.116 1.033.208l.292.05a.25.25 0 0 0 .291-.247M1 8.82v1.659a1.935 1.935 0 0 0 2.298.43.935.935 0 0 1 1.08.175l.348.349a2 2 0 0 0 2.615.185l.059-.044a1 1 0 0 1 1.2 0l.06.044a2 2 0 0 0 2.613-.185l.348-.348a.94.94 0 0 1 1.082-.175c.781.39 1.718.208 2.297-.426V8.833l-.68.907a.94.94 0 0 1-1.17.276 1.94 1.94 0 0 0-2.236.363l-.348.348a1 1 0 0 1-1.307.092l-.06-.044a2 2 0 0 0-2.399 0l-.06.044a1 1 0 0 1-1.306-.092l-.35-.35a1.935 1.935 0 0 0-2.233-.362.935.935 0 0 1-1.168-.277z"/>
+              </svg>
+            </div>
+            <div>
+              <h3 class="fs-2 text-body-emphasis">
+                <a
+                  href="./public/birthday-invite.html"
+                  style="color: inherit; text-decoration: none"
+                  >Birthday Invite Project</a
+                >
+              </h3>
+              <p>
+                A basic HTML page created to invite friends and family to a
+                birthday celebration. It includes simple text, images, and
+                links—great for beginners learning to build web pages.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-dialog" style="max-width: 300px">
+        <div class="modal-content">
+          <div class="modal-body p-4 text-center">
+            <h5 class="mb-0">Wanna know more about me?</h5>
+          </div>
+          <div class="modal-footer flex-nowrap p-0">
+            <button
+              type="button"
+              class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0 border-end"
+              style="color: black"
+            >
+              <a
+                href="./public/about.html"
+                style="color: inherit; text-decoration: none"
+                >Yes, please</a
+              >
+            </button>
+            <button
+              type="button"
+              class="btn btn-lg btn-link fs-6 text-decoration-none col-6 py-3 m-0 rounded-0"
+              data-bs-dismiss="modal"
+              style="color: black"
+            >
+              <a
+                href="./public/no-thanks.html"
+                style="color: inherit; text-decoration: none"
+                >No thanks</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid py-5 text-center">
+        <h3 class="fs-2 fw-semibold">Now that we are basically besties</h3>
+        <button class="btn btn-primary btn-lg mt-3 hit-me-up" type="button">
+          <a
+            href="./public/contact.html"
+            style="color: black; text-decoration: none"
+            >Hit me up!</a
+          >
+        </button>
+      </div>
+
+      <footer class="py-3 mt-4">
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item">
+            <a href="https://www.instagram.com/gowrimungath/" class="nav-link px-2 text-body-secondary" target="_blank">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/gowri-mungath-243405195" class="nav-link px-2 text-body-secondary" target="_blank">
+              <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/gowrimungath" class="nav-link px-2 text-body-secondary" target="_blank">
+              <i class="fab fa-github fa-lg"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-center text-body-secondary">© Mungath</p>
+      </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
+
+    </div>
+  </body>
 </html>
